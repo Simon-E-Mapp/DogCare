@@ -1,12 +1,12 @@
 import { Link } from "react-router"
 
 
-const App = () =>{
+const Breeds = () =>{
 
 return(
 <section>
     <p>Välkommen</p>
-    <Link to="/Breeds">Breeds</Link>
+    <Link to="/">Homepage</Link>
     
 </section>
 )
@@ -14,4 +14,4 @@ return(
 
 
 
-export default App
+export default Breeds
