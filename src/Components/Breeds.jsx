@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import { Link } from "react-router"
+import "./Breeds.css"
 
 
 const Breeds = () =>{
@@ -9,7 +10,6 @@ const Breeds = () =>{
         fetch("https://api.jsonbin.io/v3/b/68cd24a9ae596e708ff3c68c/latest")
         .then(res => res.json())
         .then(data => {
-            console.log("Vad händer", data);
             console.log("Breeds", data.record);
             setBreeds(data.record);
         })
