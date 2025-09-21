@@ -23,10 +23,11 @@ return(
         {breeds.map((breeds, index) => (
             <li key = {index}>
                 <section id="breedList">
-                    <p>Name: {breeds.name}</p>
-                    <p>Sex: {breeds.sex}</p>
-                    <p>Breed: {breeds.breed}
-                    <img src={breeds.img} width="200px"/></p>
+                    <p id="breedInfo">Name: {breeds.name}</p>
+                    <p id="breedInfo">Sex: {breeds.sex}</p>
+                    <p id="breedInfo">Breed: {breeds.breed}</p>
+                    <p id="breedInfo">Age: {breeds.age}
+                    <img id="breedImg" src={breeds.img} width="200px"/></p>
                 </section></li>
         ))}
     </ul>
