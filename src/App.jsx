@@ -1,13 +1,17 @@
+import { Link } from "react-router"
 
-import './App.css'
 
-function App() {
+const App = () =>{
 
-  return (
-    <>
-      
-    </>
-  )
+return(
+<section>
+    <p>Välkommen</p>
+    <Link to="/Breeds">Breeds</Link>
+    
+</section>
+)
 }
+
+
 
 export default App

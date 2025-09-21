@@ -1,0 +1,25 @@
+
+#breedList {
+    border: 0.2rem solid black;
+    border-radius: 2rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#breedInfo, #breedImg {
+    display: flex;
+    justify-items: flex-start;
+}
+
+#breedInfo {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0.5rem;
+}
+
+#breedImg{
+    border-radius: 1rem;
+    margin-left: 1rem;
+    box-shadow: 0.5rem 0.5rem 1rem black;
+}
+
