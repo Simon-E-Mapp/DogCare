@@ -4,14 +4,12 @@
     border-radius: 2rem;
     margin: 1rem;
     padding: 1rem;
+    background-color: gray;;
 }
 
 #breedInfo, #breedImg {
-    display: flex;
-    justify-items: flex-start;
-}
-
-#breedInfo {
+    display: inline-block;
+    background-color: pink;
     font-size: 1.2rem;
     font-weight: bold;
     margin: 0.5rem;
@@ -19,7 +17,6 @@
 
 #breedImg{
     border-radius: 1rem;
-    margin-left: 1rem;
     box-shadow: 0.5rem 0.5rem 1rem black;
 }
 
