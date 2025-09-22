@@ -5,7 +5,7 @@ const App = () =>{
 
 return(
 <section>
-    <p>Välkommen</p>
+    <p>Välkommen!</p>
     <Link to="/Breeds">Breeds</Link>
     
 </section>
