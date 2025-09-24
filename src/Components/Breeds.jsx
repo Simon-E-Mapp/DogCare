@@ -20,14 +20,14 @@ return(
     <p>Välkommen</p>
     <Link to="/">Homepage</Link>
     <Link to="/BreedsExtended">BreedsExtended</Link>
-    <ul>
+    <ul className="breedList">
         {breeds
         .filter((breeds) => breeds.present === true)
         .map((breeds, index) => (
-            <li key = {index}>
-                <section id="breedList">
+            <li key = {index} className="breedItem">
+                <section>
                     <p id="breedInfo">Name: {breeds.name}</p>
-                    <p id="breedInfo">Present: {breeds.present ? "True" : "False"}</p>
+                    <p id="breedInfo">Present: {breeds.present ? "✅" : "❌"}</p>
                     <img id="breedImg" src={breeds.img} width="200px"/>
                 </section></li>
         ))}

@@ -1,22 +1,29 @@
 
-#breedList {
-    border: 0.2rem solid black;
-    border-radius: 2rem;
-    margin: 1rem;
-    padding: 1rem;
-    background-color: gray;;
+.breedList {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
 }
 
-#breedInfo, #breedImg {
-    display: inline-block;
-    background-color: pink;
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin: 0.5rem;
+.breedItem {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fdfdfd;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: center;
 }
 
-#breedImg{
-    border-radius: 1rem;
-    box-shadow: 0.5rem 0.5rem 1rem black;
+.breedItem:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.25);
 }
+
+
 

@@ -20,15 +20,15 @@ return(
     <p>Välkommen</p>
     <Link to="/">Homepage</Link>
     <Link to="/Breeds">Breeds</Link>
-    <ul>
+    <ul className="breedList">
         {breeds.map((breeds, index) => (
-            <li key = {index}>
-                <section id="breedList">
+            <li key = {index} className="breedItem">
+                <section>
                     <p id="breedInfo">Name: {breeds.name}</p>
                     <p id="breedInfo">Sex: {breeds.sex}</p>
                     <p id="breedInfo">Breed: {breeds.breed}</p>
                     <p id="breedInfo">Age: {breeds.age}</p>
-                    <p id="breedInfo">Present: {breeds.present ? "yes" : "no"}</p>
+                    <p id="breedInfo">Present: {breeds.present ? "✅" : "❌"}</p>
                     <img id="breedImg" src={breeds.img} width="200px"/>
                 </section></li>
         ))}
