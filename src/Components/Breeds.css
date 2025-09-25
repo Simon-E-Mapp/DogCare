@@ -12,10 +12,10 @@
     display: flex;
   flex-direction: column;
   align-items: center;
-  background: #fdfdfd;
+  background: white;
   border-radius: 1rem;
   padding: 1rem;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 10px rgb(133, 133, 133);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   text-align: center;
 }
@@ -23,6 +23,10 @@
 .breedItem:hover {
   transform: translateY(-4px);
   box-shadow: 0 6px 14px rgba(0,0,0,0.25);
+}
+
+p {
+    text-align: center;
 }
 
 

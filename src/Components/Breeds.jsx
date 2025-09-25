@@ -17,9 +17,7 @@ const Breeds = () =>{
 
 return(
 <section>
-    <p>Välkommen</p>
-    <Link to="/">Homepage</Link>
-    <Link to="/BreedsExtended">BreedsExtended</Link>
+    <p>Dogs present today</p>
     <ul className="breedList">
         {breeds
         .filter((breeds) => breeds.present === true)

@@ -17,9 +17,7 @@ const BreedsExtended = () =>{
 
 return(
 <section>
-    <p>Välkommen</p>
-    <Link to="/">Homepage</Link>
-    <Link to="/Breeds">Breeds</Link>
+    <p>All dogs that are or have been present</p>
     <ul className="breedList">
         {breeds.map((breeds, index) => (
             <li key = {index} className="breedItem">
