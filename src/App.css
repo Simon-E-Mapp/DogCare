@@ -1,6 +1,6 @@
 
 .navbar{
-    background-color: rgb(199, 197, 197);
+    background-color: rgb(226, 222, 222);
     display: flex;
     justify-content: space-around;
     padding: 1rem;
@@ -8,7 +8,7 @@
 }
 
 .navbar2 {
-    background-color: rgb(199, 197, 197);
+    background-color: rgb(226, 222, 222);
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
