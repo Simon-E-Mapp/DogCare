@@ -22,12 +22,12 @@ return(
         {breeds.map((breeds, index) => (
             <li key = {index} className="breedItem">
                 <section>
-                    <p id="breedInfo">Name: {breeds.name}</p>
-                    <p id="breedInfo">Sex: {breeds.sex}</p>
-                    <p id="breedInfo">Breed: {breeds.breed}</p>
-                    <p id="breedInfo">Age: {breeds.age}</p>
-                    <p id="breedInfo">Present: {breeds.present ? "✅" : "❌"}</p>
-                    <img id="breedImg" src={breeds.img} width="200px"/>
+                    <p className="breedInfo">Name: {breeds.name}</p>
+                    <p className="breedInfo">Sex: {breeds.sex}</p>
+                    <p className="breedInfo">Breed: {breeds.breed}</p>
+                    <p className="breedInfo">Age: {breeds.age}</p>
+                    <p className="breedInfo">Present: {breeds.present ? "✅" : "❌"}</p>
+                    <img className="breedImg" src={breeds.img?.replace(/\.jpe?g$/, ".jpg")} width="200px"/>
                 </section></li>
         ))}
     </ul>

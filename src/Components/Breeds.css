@@ -9,7 +9,7 @@
 }
 
 .breedItem {
-    display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   background: white;
@@ -26,7 +26,15 @@
 }
 
 p {
-    text-align: center;
+  text-align: center;
+}
+
+.breedImg {
+  border-radius: 1rem;
+  margin-top: 1rem;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }
 
 
